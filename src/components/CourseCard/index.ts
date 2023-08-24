@@ -1,0 +1,1 @@
+export { CourceCard } from './CourceCard';

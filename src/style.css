@@ -1,0 +1,42 @@
+.select {
+  color: #f6f6f6;
+  font: 400 13px 'Open Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+
+  overflow: hidden;
+  border: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  padding: 6px 20px;
+  padding-right: 50px;
+  background-color: transparent;
+  height: 40px;
+  position: relative;
+}
+
+.wrapper {
+  position: relative;
+  display: inline-block;
+  background-color: #666;
+}
+.wrapper:before {
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+  content: '▼';
+  font: 22px 'FontAwesome';
+  color: #f6f6f6;
+  background-color: #333;
+  padding: 0 10px;
+  line-height: 40px;
+}
+
+.main {
+  padding: 0 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

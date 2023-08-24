@@ -1,0 +1,34 @@
+.content {
+  display: grid;
+  grid-template-columns: auto minmax(auto, 330px);
+  grid-template-rows: repeat(1fr, 2);
+  gap: 2.5rem;
+}
+
+.description {
+  grid-row: 2 span;
+}
+
+.actionGroup {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.25rem;
+}
+
+.actionBtn {
+  padding: 0.5rem 2rem;
+  background-color: cornflowerblue;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.actionBtn:hover {
+  background-color: deepskyblue;
+}
+
+.metadata ul {
+  padding-left: 0;
+  list-style: none;
+}
